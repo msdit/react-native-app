@@ -104,6 +104,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
   },
   sectionTitle: {
+    fontFamily: 'BarlowCondensed-Medium',
     fontSize: 24,
     fontWeight: '600',
   },
