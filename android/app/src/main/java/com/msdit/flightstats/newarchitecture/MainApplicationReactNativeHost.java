@@ -1,4 +1,4 @@
-package com.reactnativeapp.newarchitecture;
+package com.msdit.flightstats.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.reactnativeapp.BuildConfig;
-import com.reactnativeapp.newarchitecture.components.MainComponentsRegistry;
-import com.reactnativeapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.msdit.flightstats.BuildConfig;
+import com.msdit.flightstats.newarchitecture.components.MainComponentsRegistry;
+import com.msdit.flightstats.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
