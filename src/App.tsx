@@ -8,7 +8,8 @@
  * @format
  */
 
-import React, {type PropsWithChildren} from 'react';
+import TextBase from 'shared/TextBase'
+import React, { type PropsWithChildren } from 'react'
 import {
   SafeAreaView,
   ScrollView,
@@ -17,7 +18,7 @@ import {
   Text,
   useColorScheme,
   View,
-} from 'react-native';
+} from 'react-native'
 
 import {
   Colors,
@@ -25,14 +26,14 @@ import {
   Header,
   LearnMoreLinks,
   ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+} from 'react-native/Libraries/NewAppScreen'
 
 const Section: React.FC<
   PropsWithChildren<{
-    title: string;
+    title: string
   }>
-> = ({children, title}) => {
-  const isDarkMode = useColorScheme() === 'dark';
+> = ({ children, title }) => {
+  const isDarkMode = useColorScheme() === 'dark'
   return (
     <View style={styles.sectionContainer}>
       <Text
@@ -54,15 +55,15 @@ const Section: React.FC<
         {children}
       </Text>
     </View>
-  );
-};
+  )
+}
 
 const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
+  const isDarkMode = useColorScheme() === 'dark'
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+  }
 
   return (
     <SafeAreaView style={backgroundStyle}>
@@ -78,6 +79,25 @@ const App = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
+
+          <TextBase>HI Fucking World!</TextBase>
+          <TextBase type='condensed' size='xLarge'>SUB</TextBase>
+          <TextBase color='secondary' type='condensed' size='large'>FN098</TextBase>
+          <TextBase type='condensed' size='large' bold>GET STARTED!</TextBase>
+          <TextBase color='light' type='condensed' size='normal'>HI Fucking World!</TextBase>
+          <TextBase color='primary' size='small'>HI Fucking World!</TextBase>
+          <TextBase color='secondary' type='condensed' size='xSmall' bold>HI Fucking World!</TextBase>
+          <TextBase color='secondary' type='condensed' size='xLarge' bold>HI Fucking World!</TextBase>
+          <TextBase color='gray' size='large' bold>HI Fucking World!</TextBase>
+          <TextBase color='primary' type='condensed' size='normal' bold>HI Fucking World!</TextBase>
+          <TextBase color='primary' size='small' bold>HI Fucking World!</TextBase>
+          <TextBase color='secondary' type='condensed' size='xSmall' bold>HI Fucking World!</TextBase>
+
+          <TextBase>HI Fucking World!</TextBase>
+          <TextBase color='secondary'>HI Fucking World!</TextBase>
+          <TextBase color='gray'>HI Fucking World!</TextBase>
+          <TextBase color='light'>HI Fucking World!</TextBase>
+
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
@@ -95,8 +115,8 @@ const App = () => {
         </View>
       </ScrollView>
     </SafeAreaView>
-  );
-};
+  )
+}
 
 const styles = StyleSheet.create({
   sectionContainer: {
@@ -104,7 +124,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
   },
   sectionTitle: {
-    fontFamily: 'BarlowCondensed-Medium',
+    fontFamily: 'BarlowCondensed-SemiBold',
     fontSize: 24,
     fontWeight: '600',
   },
@@ -116,6 +136,6 @@ const styles = StyleSheet.create({
   highlight: {
     fontWeight: '700',
   },
-});
+})
 
-export default App;
+export default App
