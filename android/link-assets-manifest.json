@@ -2,12 +2,16 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "src/assets/fonts/BarlowCondensed-ExtraLight.ttf",
-      "sha1": "9cddb5743953080e41b14f1a787af884305c6c04"
+      "path": "src/assets/fonts/BarlowCondensed-Light.ttf",
+      "sha1": "0cf1be176df23c03d28c8b2e8123afa34e30a09f"
     },
     {
-      "path": "src/assets/fonts/BarlowCondensed-Medium.ttf",
-      "sha1": "97ca26fcb390d83da8a008d5bf085fd1277d4999"
+      "path": "src/assets/fonts/BarlowCondensed-SemiBold.ttf",
+      "sha1": "465591c65008579e7b03792dc5598f384ca3cfd4"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Bold.ttf",
+      "sha1": "62442a18a9fe9457c1afeabf683d263a691b7798"
     },
     {
       "path": "src/assets/fonts/Roboto-Regular.ttf",

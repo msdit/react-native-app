@@ -53,9 +53,10 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>BarlowCondensed-ExtraLight.ttf</string>
-		<string>BarlowCondensed-Medium.ttf</string>
 		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>BarlowCondensed-Light.ttf</string>
+		<string>BarlowCondensed-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>
