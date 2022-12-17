@@ -15,10 +15,10 @@ export default StyleSheet.create({
         color: theme.grayText
     },
     xLargeText: {
-        fontSize: 43
+        fontSize: 36
     },
     largeText: {
-        fontSize: 36
+        fontSize: 24
     },
     normalText: {
         fontSize: 18
@@ -35,10 +35,16 @@ export default StyleSheet.create({
     condensed: {
         fontFamily: "BarlowCondensed-Light"
     },
+    persian: {
+        fontFamily: "Dana-Regular"
+    },
     regularBold: {
         fontFamily: "Roboto-Bold"
     },
     condensedBold: {
         fontFamily: "BarlowCondensed-SemiBold"
-    }
+    },
+    persianBold: {
+        fontFamily: "Dana-Regular"
+    },
 })

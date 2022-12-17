@@ -12,12 +12,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1C469A2D154145B8A3A4ACFB /* BarlowCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CF20B3366B541BAA9059E71 /* BarlowCondensed-SemiBold.ttf */; };
 		61C9941A9EAB4385A4171064 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8332BD715B764BE18AAD7DC2 /* Roboto-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-FlightStats-FlightStatsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FlightStats-FlightStatsTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		97DA88EBC17B4ABFA5571EFD /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 826D6A4BC8A64605A52541BC /* Roboto-Bold.ttf */; };
 		C33399E0B21B4B39A974A001 /* BarlowCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71E69FDFA9AB4194A2C2F6D8 /* BarlowCondensed-Light.ttf */; };
-		1C469A2D154145B8A3A4ACFB /* BarlowCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CF20B3366B541BAA9059E71 /* BarlowCondensed-SemiBold.ttf */; };
+		BA353738AF304641B44EE540 /* Dana-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F301A9F7AAF847798879AF16 /* Dana-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,13 +46,14 @@
 		5709B34CF0A7D63546082F79 /* Pods-FlightStats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightStats.release.xcconfig"; path = "Target Support Files/Pods-FlightStats/Pods-FlightStats.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-FlightStats-FlightStatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightStats-FlightStatsTests.debug.xcconfig"; path = "Target Support Files/Pods-FlightStats-FlightStatsTests/Pods-FlightStats-FlightStatsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-FlightStats.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlightStats.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E69FDFA9AB4194A2C2F6D8 /* BarlowCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-Light.ttf"; path = "../src/assets/fonts/BarlowCondensed-Light.ttf"; sourceTree = "<group>"; };
+		7CF20B3366B541BAA9059E71 /* BarlowCondensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-SemiBold.ttf"; path = "../src/assets/fonts/BarlowCondensed-SemiBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FlightStats/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		826D6A4BC8A64605A52541BC /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		8332BD715B764BE18AAD7DC2 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-FlightStats-FlightStatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightStats-FlightStatsTests.release.xcconfig"; path = "Target Support Files/Pods-FlightStats-FlightStatsTests/Pods-FlightStats-FlightStatsTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		826D6A4BC8A64605A52541BC /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		71E69FDFA9AB4194A2C2F6D8 /* BarlowCondensed-Light.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Light.ttf"; path = "../src/assets/fonts/BarlowCondensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7CF20B3366B541BAA9059E71 /* BarlowCondensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-SemiBold.ttf"; path = "../src/assets/fonts/BarlowCondensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F301A9F7AAF847798879AF16 /* Dana-Regular.ttf */ = {isa = PBXFileReference; name = "Dana-Regular.ttf"; path = "../src/assets/fonts/Dana-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				826D6A4BC8A64605A52541BC /* Roboto-Bold.ttf */,
 				71E69FDFA9AB4194A2C2F6D8 /* BarlowCondensed-Light.ttf */,
 				7CF20B3366B541BAA9059E71 /* BarlowCondensed-SemiBold.ttf */,
+				F301A9F7AAF847798879AF16 /* Dana-Regular.ttf */,
 			);
 			name = Resources;
 			path = "";
@@ -269,6 +272,7 @@
 				97DA88EBC17B4ABFA5571EFD /* Roboto-Bold.ttf in Resources */,
 				C33399E0B21B4B39A974A001 /* BarlowCondensed-Light.ttf in Resources */,
 				1C469A2D154145B8A3A4ACFB /* BarlowCondensed-SemiBold.ttf in Resources */,
+				BA353738AF304641B44EE540 /* Dana-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,9 @@ module.exports = {
           assets: "./src/assets",
           shared: "./src/components/shared",
           comps: "./src/components",
+          data: "./src/data",
+          layouts: "./src/layouts",
+          pages: "./src/pages",
           const: "./src/constants",
           ts: "./src/types"
         },
